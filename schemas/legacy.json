@@ -63,15 +63,6 @@
                 "DtsCritOffset": {
                     "$ref": "#/definitions/Types/DtsCritOffset"
                 },
-                "FFGainCoefficient": {
-                    "$ref": "#/definitions/Types/FFGainCoefficient"
-                },
-                "FFOffCoefficient": {
-                    "$ref": "#/definitions/Types/FFOffCoefficient"
-                },
-                "FailSafePercent": {
-                    "$ref": "#/definitions/Types/FailSafePercent"
-                },
                 "FaultIndex": {
                     "$ref": "#/definitions/Types/FaultIndex"
                 },
@@ -84,20 +75,8 @@
                 "GpioPolarity": {
                     "$ref": "#/definitions/Types/GpioPolarity"
                 },
-                "ICoefficient": {
-                    "$ref": "#/definitions/Types/ICoefficient"
-                },
-                "ILimitMax": {
-                    "$ref": "#/definitions/Types/ILimitMax"
-                },
-                "ILimitMin": {
-                    "$ref": "#/definitions/Types/ILimitMin"
-                },
                 "Index": {
                     "$ref": "#/definitions/Types/Index"
-                },
-                "Inputs": {
-                    "$ref": "#/definitions/Types/Inputs"
                 },
                 "Labels": {
                     "$ref": "#/definitions/Types/Labels"
@@ -111,41 +90,17 @@
                 "MaxReading": {
                     "$ref": "#/definitions/Types/MaxReading"
                 },
-                "MinThermalOutput": {
-                    "$ref": "#/definitions/Types/MinThermalOutput"
-                },
                 "Name": {
                     "$ref": "#/definitions/Types/Name"
                 },
                 "Name1": {
                     "$ref": "#/definitions/Types/Name1"
                 },
-                "NegativeHysteresis": {
-                    "$ref": "#/definitions/Types/NegativeHysteresis"
-                },
                 "OffsetValue": {
                     "$ref": "#/definitions/Types/OffsetValue"
                 },
-                "OutLimitMax": {
-                    "$ref": "#/definitions/Types/OutLimitMax"
-                },
-                "OutLimitMin": {
-                    "$ref": "#/definitions/Types/OutLimitMin"
-                },
-                "Output": {
-                    "$ref": "#/definitions/Types/Output"
-                },
-                "Outputs": {
-                    "$ref": "#/definitions/Types/Outputs"
-                },
-                "PCoefficient": {
-                    "$ref": "#/definitions/Types/PCoefficient"
-                },
                 "Polarity": {
                     "$ref": "#/definitions/Types/Polarity"
-                },
-                "PositiveHysteresis": {
-                    "$ref": "#/definitions/Types/PositiveHysteresis"
                 },
                 "PowerFactorMax": {
                     "$ref": "#/definitions/Types/PowerFactorMax"
@@ -165,9 +120,6 @@
                 "PresenceGpio": {
                     "$ref": "#/definitions/Types/PresenceGpio"
                 },
-                "Profiles": {
-                    "$ref": "#/definitions/Types/Profiles"
-                },
                 "Pwm": {
                     "$ref": "#/definitions/Types/Pwm"
                 },
@@ -176,9 +128,6 @@
                 },
                 "QMin": {
                     "$ref": "#/definitions/Types/QMin"
-                },
-                "Reading": {
-                    "$ref": "#/definitions/Types/Reading"
                 },
                 "RedundantCount": {
                     "$ref": "#/definitions/Types/RedundantCount"
@@ -191,18 +140,6 @@
                 },
                 "SensorType": {
                     "$ref": "#/definitions/Types/SensorType"
-                },
-                "SetPoint": {
-                    "$ref": "#/definitions/Types/SetPoint"
-                },
-                "SetPointOffset": {
-                    "$ref": "#/definitions/Types/SetPointOffset"
-                },
-                "SlewNeg": {
-                    "$ref": "#/definitions/Types/SlewNeg"
-                },
-                "SlewPos": {
-                    "$ref": "#/definitions/Types/SlewPos"
                 },
                 "Status": {
                     "$ref": "#/definitions/Types/Status"
@@ -221,9 +158,6 @@
                 },
                 "Type": {
                     "$ref": "#/definitions/Types/Type"
-                },
-                "Zones": {
-                    "$ref": "#/definitions/Types/Zones"
                 }
             },
             "required": [
@@ -318,15 +252,6 @@
             "DtsCritOffset": {
                 "type": "number"
             },
-            "FFGainCoefficient": {
-                "type": "number"
-            },
-            "FFOffCoefficient": {
-                "type": "number"
-            },
-            "FailSafePercent": {
-                "type": "number"
-            },
             "FaultIndex": {
                 "type": "number"
             },
@@ -344,23 +269,8 @@
                     "Low"
                 ]
             },
-            "ICoefficient": {
-                "type": "number"
-            },
-            "ILimitMax": {
-                "type": "number"
-            },
-            "ILimitMin": {
-                "type": "number"
-            },
             "Index": {
                 "type": "number"
-            },
-            "Inputs": {
-                "items": {
-                    "type": "string"
-                },
-                "type": "array"
             },
             "Labels": {
                 "items": {
@@ -380,47 +290,17 @@
             "MaxReading": {
                 "type": "number"
             },
-            "MinThermalOutput": {
-                "type": "number"
-            },
             "Name": {
                 "type": "string"
             },
             "Name1": {
                 "type": "string"
             },
-            "NegativeHysteresis": {
-                "type": "number"
-            },
             "OffsetValue": {
-                "type": "number"
-            },
-            "OutLimitMax": {
-                "type": "number"
-            },
-            "OutLimitMin": {
-                "type": "number"
-            },
-            "Output": {
-                "items": {
-                    "type": "number"
-                },
-                "type": "array"
-            },
-            "Outputs": {
-                "items": {
-                    "type": "string"
-                },
-                "type": "array"
-            },
-            "PCoefficient": {
                 "type": "number"
             },
             "Polarity": {
                 "type": "string"
-            },
-            "PositiveHysteresis": {
-                "type": "number"
             },
             "PowerFactorMax": {
                 "type": "number"
@@ -451,12 +331,6 @@
                     "array"
                 ]
             },
-            "Profiles": {
-                "items": {
-                    "type": "string"
-                },
-                "type": "array"
-            },
             "Pwm": {
                 "type": "number"
             },
@@ -465,12 +339,6 @@
             },
             "QMin": {
                 "type": "number"
-            },
-            "Reading": {
-                "items": {
-                    "type": "number"
-                },
-                "type": "array"
             },
             "RedundantCount": {
                 "type": "number"
@@ -483,18 +351,6 @@
             },
             "SensorType": {
                 "type": "string"
-            },
-            "SetPoint": {
-                "type": "number"
-            },
-            "SetPointOffset": {
-                "type": "string"
-            },
-            "SlewNeg": {
-                "type": "number"
-            },
-            "SlewPos": {
-                "type": "number"
             },
             "Status": {
                 "type": "string"
@@ -545,12 +401,6 @@
             },
             "Type": {
                 "type": "string"
-            },
-            "Zones": {
-                "items": {
-                    "type": "string"
-                },
-                "type": "array"
             }
         }
     }
